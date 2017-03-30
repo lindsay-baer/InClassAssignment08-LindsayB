@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_second"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.android.inclassassignment08_lindsayb.SecondActivity">
+
+    <TextView
+        android:id="@+id/title_road_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:hint="Plan Your Hike"
+        android:textSize="36dp" />
+
+
+    <EditText
+        android:id="@+id/add_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Where will you start your hike?" />
+
+    <EditText
+        android:id="@+id/add_miles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of miles in hike" />
+
+    <CheckBox
+        android:id="@+id/been_there"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Have you hiked it before?"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="add"
+        android:text="Add" />
+</LinearLayout>
+
